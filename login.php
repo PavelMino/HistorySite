@@ -17,17 +17,14 @@
 					<h2>Регистрация<h2>
 					<hr>
 				</header>
-				<form action="/java/ColorPostServlet">
-					<p class="registration-p"><input name="login" required size="25" maxlength="20" placeholder="Логин" class="form"></p>
+				<form action="/php/registration.php">
+					<p class="registration-p"><input name="malito" type="malito" maxlength="50" required size="25" placeholder="E-mail" class="form"></p>
 					<p class="registration-p"><input name="password" type="password" required size="25" maxlength="16" placeholder="Пароль" class="form"></p>
-					<p class="registration-p"><input type="checkbox" checked required value="1" id="registration-checkbox">Регистрируясь, я принимаю
-					<wbr>
-					условия&nbsp;<a href="#">Пользовательского Соглашения</a></p>
-					<p><button type="submit" id="registration-button"><h4>Зарегистрироваться</h4></button></p>
+					<p><button type="submit" id="registration-button"><h4>Войти</h4></button></p>
 				</form>
 				<footer>
 					<hr>
-					<h3>Если у вас уже есть учетная запись
+					<h3>Если у вас ytn
 					<br>
 					<a href="login.php">Войдите</a></h3>
 				</footer>
