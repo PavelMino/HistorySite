@@ -17,8 +17,8 @@
 					<h2>Регистрация<h2>
 					<hr>
 				</header>
-				<form action="/java/ColorPostServlet">
-					<p class="registration-p"><input name="login" required size="25" maxlength="20" placeholder="Логин" class="form"></p>
+				<form action="PHP/check.php" method="post">
+					<p class="registration-p"><input name="login" required size="25" maxlength="20" placeholder="Логин" class="form" type="text"></p>
 					<p class="registration-p"><input name="password" type="password" required size="25" maxlength="16" placeholder="Пароль" class="form"></p>
 					<p class="registration-p"><input type="checkbox" checked required value="1" id="registration-checkbox">Регистрируясь, я принимаю
 					<wbr>

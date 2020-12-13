@@ -17,7 +17,7 @@
 					<h2>Вход<h2>
 					<hr>
 				</header>
-				<form action="/php/registration.php">
+				<form action="/php/check.php">
 					<p class="registration-p"><input name="login" required size="25" maxlength="20" placeholder="Логин" class="form"></p>
 					<p class="registration-p"><input name="password" type="password" required size="25" maxlength="16" placeholder="Пароль" class="form"></p>
 					<p class="registration-p"><button type="submit" id="registration-button"><h4>Войти</h4></button></p>
