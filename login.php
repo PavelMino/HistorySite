@@ -14,19 +14,19 @@
 		<main class="Main">
 			<div class="registration">
 				<header>
-					<h2>Регистрация<h2>
+					<h2>Вход<h2>
 					<hr>
 				</header>
 				<form action="/php/registration.php">
-					<p class="registration-p"><input name="malito" type="malito" maxlength="50" required size="25" placeholder="E-mail" class="form"></p>
+					<p class="registration-p"><input name="login" required size="25" maxlength="20" placeholder="Логин" class="form"></p>
 					<p class="registration-p"><input name="password" type="password" required size="25" maxlength="16" placeholder="Пароль" class="form"></p>
-					<p><button type="submit" id="registration-button"><h4>Войти</h4></button></p>
+					<p class="registration-p"><button type="submit" id="registration-button"><h4>Войти</h4></button></p>
 				</form>
 				<footer>
 					<hr>
-					<h3>Если у вас ytn
+					<h3>Если у вас учётной записи
 					<br>
-					<a href="login.php">Войдите</a></h3>
+					<a href="registration.php">Зарегистрируйтесь</a></h3>
 				</footer>
 			</div>
 			<!--?php require "blocks/footer.php" ?-->
