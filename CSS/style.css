@@ -77,6 +77,22 @@ h6 {
 	/*bottom:5%;*/
 	right:0px;
 }
+#registration-button{
+	width:40%;
+	height:50px;
+	border-radius:3px;
+}
+#registration-button:hover{
+	background:#D5D5D5;
+}
+.registration-p{
+	padding: 5px;
+}
+#registration-checkbox{
+	width:4%;
+	height:20px;
+	transform:translateY(-25%);
+}
 .menu-block{
 	position: relative;
 	display:inline-block;
