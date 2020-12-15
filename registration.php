@@ -22,7 +22,7 @@
 					<p class="registration-p"><input name="password" type="password" required size="25" maxlength="16" placeholder="Пароль" class="form"></p>
 					<p class="registration-p"><input type="checkbox" checked required value="1" id="registration-checkbox">Регистрируясь, я принимаю
 					<wbr>
-					условия&nbsp;<a href="#">Пользовательского Соглашения</a></p>
+					условия&nbsp;<a href="documents/polzovatelskoe-soglasie.php">Пользовательского Соглашения</a></p>
 					<p><button type="submit" id="registration-button"><h4>Зарегистрироваться</h4></button></p>
 				</form>
 				<footer>

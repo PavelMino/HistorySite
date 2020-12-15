@@ -14,7 +14,7 @@ body {
 	text-align:center; 
 }
 a {
-	color:black;
+	color:blue;
 	text-decoration: none;
 }
 h1 {
@@ -58,6 +58,12 @@ h6 {
 }
 .menu a:hover{
 	background:#D5D5D5;
+}
+#polzovatelskoe-soglasie{
+	
+}
+.menu a{
+	color:black;
 }
 #name {
 	position: absolute;
